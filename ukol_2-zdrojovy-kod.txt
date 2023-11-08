@@ -1,0 +1,46 @@
+-------------------------------------------------------
+            HTML
+-------------------------------------------------------
+<div class="wrapper">
+  <div class="red">red</div>  
+  <div class="green">green</div>
+  <div class="yellow">yellow</div>
+  <div class="blue">blue</div>
+  <div class="orange">orange</div>
+  <div class="black">black</div>
+</div>
+
+
+-------------------------------------------------------
+            CSS
+-------------------------------------------------------
+
+.wrapper{
+  display:grid;
+  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(3, 200px);
+}
+
+.red{
+  background-color:red;
+}
+
+.green{
+  background-color:green;
+}
+
+.yellow{
+  background-color:yellow;
+}
+
+.blue{
+  background-color:blue;
+}
+
+.orange{
+  background-color:orange;
+}
+
+.black{
+  background-color:black;
+}
